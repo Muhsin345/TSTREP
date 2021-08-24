@@ -1,0 +1,1 @@
+web: gunicorn tstprjct.wsgi --log-file -
