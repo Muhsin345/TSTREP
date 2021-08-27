@@ -5,4 +5,7 @@ from django.http import HttpResponse
 def fnLogin(request):
     return render(request,'Login.html')
 def fnDetails(request):
-    return render(request,'Details.html')    
+    return render(request,'Details.html')
+def fnUser(request):
+    return render(request,'Userhome.html')
+
