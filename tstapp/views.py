@@ -8,4 +8,6 @@ def fnDetails(request):
     return render(request,'Details.html')
 def fnUser(request):
     return render(request,'Userhome.html')
+def fnFB(request):
+    return render(request,'fb345.html')
 
