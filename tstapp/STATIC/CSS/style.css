@@ -1,0 +1,67 @@
+body{
+    /* background-image:url("{% static 'images/img3.jpg' %}"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    border-width: 0px;
+    border-style: outset;
+    margin: 70px 350px 50px 400px;
+    border-radius: 2%;
+    background-color: rgba(155, 219, 235, .3);
+    text-align: center;
+    width: 400px;
+    padding: 50px 50px 50px 50px;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(40, 56, 61);
+}
+.inp1{
+    margin: 0px 0px 10px 2px;
+    padding: 8px;
+    background-color: rgba(69, 213, 224, 0.2);
+}
+.inp2{
+    margin: 0px 0px 20px 6px;
+    padding: 8px;
+    background-color: rgba(69, 213, 224, 0.2);
+} 
+.btn{
+    margin: 30px 0 50px 0;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(116, 212, 236);
+    color: white;
+}   
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(155, 219, 235, .3);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+li a:hover {
+    background-color: rgba(30, 87, 84,.5);
+}
+a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.act{
+    background-color: rgba(38, 110, 107, .6);
+}
+.ab:link {
+    color: white;
+}
+.ab:visited {
+    color: black;
+}
+.ab:hover {
+    color: grey;
+}
