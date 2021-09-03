@@ -10,4 +10,6 @@ def fnUser(request):
     return render(request,'Userhome.html')
 def fnFB(request):
     return render(request,'fb345.html')
+def fnprdcts(request):
+    return render(request,'prdcts.html')    
 
