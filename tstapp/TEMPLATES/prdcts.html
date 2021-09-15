@@ -21,10 +21,11 @@
         }
         img{
             height: 40px;
-            width: 40px;
+            width: 70px;
             padding: 20px;
         }
         .d1{
+            border-radius: 25px;
             background-color: rgba(155, 219, 235, .3);
         }
         .sec{
@@ -52,12 +53,12 @@
             text-align: center;
         }
         .ipn{
-            height: 300px;
-            width: 220px;
+            height: 320px;
+            width: 250px;
             padding: 20px 20px 0 20px;
         }
         .ipn2{
-            height: 300px;
+            height: 320px;
             width: 180px;
             padding: 20px 20px 0 20px;
         }
@@ -108,16 +109,32 @@
 </head>
 <body class="bg" background="{% static 'images/img3.jpg' %}">
     <div class="main">
-        <div class="d1"><img src="{% static 'images/logos/apple.png' %}" alt=""></div>
-        <div class="d1"><img src="{% static 'images/logos/mi.png' %}" alt=""></div>
-        <div class="d1"><img src="{% static 'images/logos/samsun.png' %}" alt=""></div>
-        <div class="d1"><img src="{% static 'images/logos/oneplu.png' %}" alt=""></div>
-        <div class="d1"><img src="{% static 'images/logos/vivo.png' %}" alt=""></div>
-        <div class="d1"><img src="{% static 'images/logos/oppo.png' %}" alt=""></div>
-        <div class="d1"><img src="{% static 'images/logos/huawei.png' %}" alt=""></div>
+        <a href="">
+            <div class="d1"><img src="{% static 'images/logos/apple.png' %}" alt=""></div>
+        </a>    
+        <a href="">
+            <div class="d1"><img src="{% static 'images/logos/mi.png' %}" alt=""></div>
+        </a>
+        <a href="">
+            <div class="d1"><img src="{% static 'images/logos/samsun.png' %}" alt=""></div>
+        </a>
+        <a href="">
+            <div class="d1"><img src="{% static 'images/logos/oneplu.png' %}" alt=""></div>
+        </a>
+        <a href="">    
+            <div class="d1"><img src="{% static 'images/logos/vivo.png' %}" alt=""></div>
+        </a>
+        <a href="">
+            <div class="d1"><img src="{% static 'images/logos/oppo.png' %}" alt=""></div>
+        </a>
+        <a href="">
+            <div class="d1"><img src="{% static 'images/logos/huawei.png' %}" alt=""></div>
+        </a>
     </div>
     <div class="sec">
-        <div><img class="one" src="{% static 'images/logos/mibnr.jpg' %}" alt=""></div>
+        <div>
+            <img class="one" src="{% static 'images/logos/mibnr.jpg' %}" alt="">
+        </div>
     </div>
     <div class="ifn">
         <div><img class="ipn" src="{% static 'images/logos/mini.png' %}" alt="">
@@ -170,7 +187,7 @@
         <li><a href="#contact">Contact</a></li>
         <li><a class="act" href="/prdcts/">Products</a></li>
         <li style="float:right;"><a href="#about">About</a></li>
-        <li style="float:right;"><a href="#login">Log Out</a></li>
+        <li style="float:right;"><a href="/Userhome/">Log Out</a></li>
       </ul>
 </body>
 </html>
